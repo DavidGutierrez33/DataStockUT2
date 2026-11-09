@@ -1,0 +1,6 @@
+# Plantilla SIN credenciales reales.
+# Copia este fichero como db.properties (en esta misma carpeta) y pon tus datos de MySQL local.
+# db.properties está en .gitignore: NO se sube al repositorio.
+jdbc.url=jdbc:mysql://localhost:3306/datastock
+jdbc.user=DavidGutiérrez
+jdbc.password=password1234

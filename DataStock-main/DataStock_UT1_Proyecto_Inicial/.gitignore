@@ -1,0 +1,14 @@
+target/
+*.class
+.idea/
+*.iml
+.vscode/
+.DS_Store
+# Salidas generadas por el alumnado (no se ignoran los ejemplos de entrada)
+datos/salidas/*
+!datos/salidas/.gitkeep
+
+# UT2: configuración local con la contraseña de MySQL (NUNCA se sube)
+src/main/resources/db.properties
+# UT2: base de datos SQLite generada por DemoSQLite
+datos/sqlite/
